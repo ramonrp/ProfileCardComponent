@@ -1,0 +1,115 @@
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    font-family: 'Kumbh Sans', sans-serif;;
+    height: 100%;
+}
+
+.container{
+    position: relative;
+    height: 100vh;
+    background-color: hsl(185, 75%, 39%) ;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-circle{
+    position: absolute;
+    top:-75%;
+    right:50%;
+    z-index: 9;
+}
+
+.bottom-circle{
+    position: absolute;
+    left: 50%;
+    bottom:-87%;
+    z-index:9;
+    
+}
+
+.card{
+    position: relative;
+    width: 350px;
+    height: 380px;
+    background-color:#fff;
+    z-index:10;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    border-radius: 15px;
+}
+.pattern{
+    border-top-left-radius: 15px;
+    border-top-right-radius:15px ;
+}
+
+.picture{
+    position: absolute;
+    top:90px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+.content{
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;;
+}
+
+.name-age{
+    padding-top:25px;
+    height:150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.stats{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    text-align: center;
+    border-top: 1px solid lightgray;
+}
+
+.bold{
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%)
+}
+
+.thin{
+    font-weight: 400;
+    font-size: initial;
+    color: hsl(227, 10%, 46%);
+    margin-top: 0.8em;
+    font-size: 14px;
+}
+.age{
+  margin-left: 0.3rem;
+  font-size:18px;
+}
+
+.stats .title{
+    font-size: 11px;
+    margin-top: 0.5em;
+}
